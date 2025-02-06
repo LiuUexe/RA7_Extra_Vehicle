@@ -14,7 +14,7 @@ public class Car extends Vehicle {
 
     @Override
     public double calculatePrice(int days) {
-        return (50 * days) + (1.5 * seats * days);
+        return (50 * days) + ((1.5 * seats) + (1.5 * days));
     }
 
     @Override
